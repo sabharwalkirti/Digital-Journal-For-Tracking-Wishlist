@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE PAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Ensure the body takes up the full height of the screen */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: white;
+        }
+
+        /* Style for the image container */
+        .image-container {
+            flex: 1; /* Take up equal space on the left */
+            display: flex;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+
+        /* Style for the text area container */
+        .text-container {
+            flex: 2; /* Take up more space on the right */
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white
+        }
+
+        /* Style for the editable text area */
+        .editable-text {
+            width: 80%;
+            height: 80%;
+            font-size: 40px;
+            border: 1px solid white;
+            border-radius: 5px;
+            resize: none;
+            outline: none;
+        }
+        .center {
+    position: fixed;
+    top: 90%;
+    left: 86%; 
+  justify-content: center;
+  align-items: right;
+  height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <!-- Replace with your image URL -->
+        <img src="adventureimage.jpg" alt="Adventure" width="500" height="600"> 
+    </div>
+    <div class="text-container">
+        <textarea class="editable-text"  contenteditable="true">
+ADVENTURE
+•SKYDIVING 
+    "Why to fall in love When you can fall from a plane instead."
+            
+•HANG GLIDING 
+    "You can feel what birds do."
+            
+•CLIFF JUMPING 
+    "Experience the free fall."
+            
+•BUNGEE JUMPING 
+    "Death trial."
+        </textarea>
+    </div>
+    <div class="center">
+        <div class="categories">
+            <a href="lastpage.html" class="category"> HAKUNAMATATA </a>
+    </div>
+</body>
+</html>
